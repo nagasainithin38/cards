@@ -1,0 +1,22 @@
+<div class="card mb-5 mb-lg-0">
+    <div class="card-body">
+      <h5 class="card-title text-muted text-uppercase text-center">{{cardDetails.type}}</h5>
+      <h6 class="card-price text-center">${{cardDetails.price}}<span class="period">/month</span></h6>
+      <hr>
+      <ul class="fa-ul">
+        <li [class]="cardDetails.f1.class"><img [src]="cardDetails.f1.iconSrc" width="15px"> {{cardDetails.f1.content}}</li>
+        <li [class]="cardDetails.f2.class"><img [src]="cardDetails.f2.iconSrc" width="15px"> {{cardDetails.f2.content}}</li>
+        <li [class]="cardDetails.f3.class"><img [src]="cardDetails.f3.iconSrc" width="15px"> {{cardDetails.f3.content}}</li>
+        <li [class]="cardDetails.f4.class"><img [src]="cardDetails.f4.iconSrc" width="15px"> {{cardDetails.f4.content}}</li>
+        <li [class]="cardDetails.f5.class"><img [src]="cardDetails.f5.iconSrc" width="15px"> {{cardDetails.f5.content}}</li>
+        <li [class]="cardDetails.f6.class"><img [src]="cardDetails.f6.iconSrc" width="15px"> {{cardDetails.f6.content}}</li>
+        <li [class]="cardDetails.f7.class"><img [src]="cardDetails.f7.iconSrc" width="15px"> {{cardDetails.f7.content}} Free Subdomain</li>
+        <li [class]="cardDetails.f8.class"><img [src]="cardDetails.f8.iconSrc" width="15px"> {{cardDetails.f8.content}}</li>
+        
+        
+      </ul>
+      <div class="d-grid">
+        <a href="#" class="btn btn-primary text-uppercase">Button</a>
+      </div>
+    </div>
+</div>
